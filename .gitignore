@@ -1,3 +1,5 @@
+.env1
+.env1*
 tmp
 build
 dist
