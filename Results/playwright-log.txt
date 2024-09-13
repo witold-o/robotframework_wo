@@ -1,0 +1,17 @@
+{"level":30,"time":"2024-09-13T13:05:58.098Z","pid":24528,"hostname":"DESKTOP-V0959KT","msg":"Listening on 56297"}
+(node:24528) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-09-13T13:05:58.269Z","pid":24528,"hostname":"DESKTOP-V0959KT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-13T13:05:58.269Z","pid":24528,"hostname":"DESKTOP-V0959KT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-13T13:05:58.273Z","pid":24528,"hostname":"DESKTOP-V0959KT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-13T13:05:58.273Z","pid":24528,"hostname":"DESKTOP-V0959KT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-13T13:05:58.278Z","pid":24528,"hostname":"DESKTOP-V0959KT","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-09-13T13:05:58.480Z","pid":24528,"hostname":"DESKTOP-V0959KT","msg":"Adding browser to stack: chromium, version: 128.0.6613.18"}
+{"level":30,"time":"2024-09-13T13:05:58.481Z","pid":24528,"hostname":"DESKTOP-V0959KT","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-09-13T13:05:58.481Z","pid":24528,"hostname":"DESKTOP-V0959KT","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-09-13T13:06:00.904Z","pid":24528,"hostname":"DESKTOP-V0959KT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-13T13:06:00.904Z","pid":24528,"hostname":"DESKTOP-V0959KT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-13T13:06:00.913Z","pid":24528,"hostname":"DESKTOP-V0959KT","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-13T13:06:00.913Z","pid":24528,"hostname":"DESKTOP-V0959KT","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-13T13:06:00.963Z","pid":24528,"hostname":"DESKTOP-V0959KT","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-09-13T13:06:01.084Z","pid":24528,"hostname":"DESKTOP-V0959KT","msg":"End of node method closeAllBrowsers"}

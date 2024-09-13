@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on win32)" generated="2024-09-13T15:05:57.264621" rpa="false" schemaversion="5">
+<suite id="s1" name="Robotframework Wo" source="C:\Users\toldw\OneDrive\Pulpit\_Projects\_RobotFramework_WO\robotframework_wo">
+<suite id="s1-s1" name="Test Cases" source="C:\Users\toldw\OneDrive\Pulpit\_Projects\_RobotFramework_WO\robotframework_wo\Test_Cases">
+<suite id="s1-s1-s1" name="Dummy TC" source="C:\Users\toldw\OneDrive\Pulpit\_Projects\_RobotFramework_WO\robotframework_wo\Test_Cases\Dummy_TC.robot">
+<test id="s1-s1-s1-t1" name="Handle Browser Windows" line="6">
+<kw name="New Browser" owner="Browser" type="SETUP">
+<msg time="2024-09-13T15:05:58.275538" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\toldw\\OneDrive\\Pulpit\\_Projects\\_RobotFramework_WO\\robotframework_wo\\results\\browser\\traces\\2854baa9-f6eb-42f0-8fed-ad3c4861167c"}</msg>
+<msg time="2024-09-13T15:05:58.482725" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\toldw\\OneDrive\\Pulpit\\_Projects\\_RobotFramework_WO\\robotframework_wo\\results\\browser\\traces\\2854baa9-f6eb-42f0-8fed-ad3c4861167c"}</msg>
+<arg>chromium</arg>
+<arg>No</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-09-13T15:05:58.274537" elapsed="0.209189"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-09-13T15:05:58.484727" level="INFO">Opening browser 'chrome' to base url 'https://onet.pl'.</msg>
+<arg>https://onet.pl</arg>
+<arg>chrome</arg>
+<arg>options=add_experimental_option("detach", True)</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-09-13T15:05:58.484727" elapsed="2.411188"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Test</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2024-09-13T15:06:00.896916" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-09-13T15:05:58.270534" elapsed="2.627382"/>
+</test>
+<status status="PASS" start="2024-09-13T15:05:57.292646" elapsed="3.614279"/>
+</suite>
+<status status="PASS" start="2024-09-13T15:05:57.291644" elapsed="3.625361"/>
+</suite>
+<status status="PASS" start="2024-09-13T15:05:57.269626" elapsed="3.649122"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robotframework Wo">Robotframework Wo</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Test Cases">Robotframework Wo.Test Cases</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Dummy TC">Robotframework Wo.Test Cases.Dummy TC</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
