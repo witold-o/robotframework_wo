@@ -22,6 +22,16 @@ jobs:
         pip install robotframework
         pip install -r requirements.txt
 
+
+    - name: Print ls
+      run: |
+        ls
+
+
+    - name: Move to test cases 
+      run: |
+        cd .\Test_Cases\
+
     - name: Run Robot Framework tests
       run: |
-        robot tests/
+        robot API_TC.robot
