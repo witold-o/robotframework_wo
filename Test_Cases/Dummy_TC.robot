@@ -10,7 +10,7 @@ Handle Browser Windows
     # ${location}=        Get Location
     # log to console       ${location}
     # New Page    https://onet.pl
-    SeleniumLibrary.Open Browser     https://onet.pl         chrome         options=add_experimental_option("detach", True)
+    SeleniumLibrary.Open Browser     https://wp.pl         chrome         options=add_experimental_option("detach", True)
     log to console       Test
     
 
