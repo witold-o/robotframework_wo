@@ -3,7 +3,7 @@ Library    Browser
 Library    SeleniumLibrary
 Library    RequestsLibrary
 Library    JSONLibrary
-Test Setup    New Browser    chromium    No
+# Test Setup    New Browser    chromium    No
 
 
 *** Variables ***
