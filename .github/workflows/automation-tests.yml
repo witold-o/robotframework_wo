@@ -34,4 +34,4 @@ jobs:
 
     - name: Run Robot Framework tests
       run: |
-        robot API_TC.robot
+        robot .\Test_Cases\API_TC.robot
