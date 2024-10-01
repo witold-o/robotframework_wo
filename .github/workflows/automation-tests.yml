@@ -9,7 +9,6 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - name: Payload field 
     - run: echo "Payload field is ${{ github.event.client_payload.mydata }}"
       
     - name: Checkout repository
