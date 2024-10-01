@@ -1,6 +1,7 @@
 name: Robot-automation-pipeline
-on: [push, pull_request]
-
+on: 
+  repository_dispatch:
+    types:  [run_my_workflow]
 
 jobs:
   First-Job:
@@ -8,6 +9,9 @@ jobs:
     runs-on: windows-latest
 
     steps:
+    - name: Payload field 
+    - run: echo "Payload field is ${{ github.event.client_payload.mydata }}"
+      
     - name: Checkout repository
       uses: actions/checkout@v2
 
